@@ -47,7 +47,7 @@ Run this script to open a live feed of your camera. Click the four corners of ea
 
 ## 📊 AI Training Pipeline
 
-*(For reference, the dataset used to train the prototype in this repository can be viewed here: `https://app.roboflow.com/bs-workspace-viuot/ai-smart-parking-system-porq9/settings`)*
+*(For reference, the dataset used to train the prototype in this repository can be viewed here: `https://universe.roboflow.com/bs-workspace-viuot/ai-smart-parking-system-porq9`)*
 
 **To build and train your own model:**
 1. Use `capture_high_res.py` to gather raw images of your parking lot.
