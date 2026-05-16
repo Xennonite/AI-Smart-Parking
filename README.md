@@ -88,4 +88,4 @@ Run this script to open a live feed of your camera. Click the four corners of ea
 
 ## 🤝 The Team
 * **Xennonite** - AI Vision, Data Pipeline, and Central Python Architecture
-* **shido-skm** - Embedded C++ Programming, Hardware Integration, and Network Endpoints
+* **Shido** - Embedded C++ Programming, Hardware Integration, and Network Endpoints
