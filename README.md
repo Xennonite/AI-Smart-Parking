@@ -34,6 +34,11 @@ The server transmits the state array over the local Wi-Fi network to a **seconda
 
 This repository provides a complete toolkit to build your own custom AI parking system from scratch.
 
+### 0. Hardware Setup
+Before running the Python scripts, you must prepare the microcontrollers:
+* **Camera:** Flash your ESP32-CAM using the standard `CameraWebServer` example found built-in to the Arduino IDE (ensure you update the Wi-Fi credentials).
+* **Gate & Display:** Flash your secondary ESP32 with the `esp32.cpp` script.
+
 ### 1. Collect Your Data (`capture_high_res.py`)
 Because every parking lot has a different camera angle, you must train the AI on your specific environment. Mount your camera and run this script to automatically capture a dataset of images showing cars entering and leaving your parking lot. 
 
@@ -56,6 +61,7 @@ Run this script to open a live feed of your camera. Click the four corners of ea
 4. Open a Google Colab notebook with a GPU enabled and run the Ultralytics training command:
    ```bash
    yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640
+   ```
 5. Take the resulting `best.pt` weights file and place it in your `AI_Vision_System` folder.
 
 ---
@@ -82,4 +88,4 @@ Run this script to open a live feed of your camera. Click the four corners of ea
 
 ## 🤝 The Team
 * **Xennonite** - AI Vision, Data Pipeline, and Central Python Architecture
-* **Sathwik** - Embedded C++ Programming, Hardware Integration, and Network Endpoints
+* **shido-skm** - Embedded C++ Programming, Hardware Integration, and Network Endpoints
