@@ -69,9 +69,10 @@ Run this script to open a live feed of your camera. Click the four corners of ea
 ## 📸 Prototype Showcase
 
 ### The Physical Setup
-![System Setup](assets/3.jpeg) 
-![](assets/2.jpeg)
-![](assets/4.jpeg)
+| image1 | image2 | image3 |
+| :---: | :---: | :---: |
+| ![System Setup](assets/3.jpeg) | ![](assets/2.jpeg) | ![](assets/4.jpeg) |
+
 *The scaled-down physical prototype featuring the ESP32-CAM mounted above, and the IR gate/LCD system at the entrance.*
 
 ### The AI Dashboard
